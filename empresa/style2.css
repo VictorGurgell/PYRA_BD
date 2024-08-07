@@ -8,8 +8,8 @@ body {
 }
 
 .input-container {
-    margin-left: -25px;
-    position: relative;
+    margin-left: -350px;
+
     width: 290px;
 }
 
@@ -27,37 +27,39 @@ body {
     width: 100%;
     height: 25px;
     padding: 10px 10px 10px 10px;  /* Ajustado para não sobrepor ícones */
-    border: 2px solid white;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .input:focus {
-    outline-color: rgb(255, 255, 255);
+    outline-color: rgb(0, 0, 0);
 }
 
 input::placeholder {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
     font-size: 12px;
 }
 
 button {
-    position: relative;
+    margin-left: 33px;
+    display: flex;
+    position: absolute;
     display: inline-block;
-    margin: 25px;
-    padding: 13px 115px;
+    margin-top: -120px;
+    padding: 15px 105px;
     text-align: center;
     font-size: 12px;
     letter-spacing: 1px;
     text-decoration: none;
     color: #834EDD;
-    background: white;
+    background: rgba(255, 255, 255, 0);
     cursor: pointer;
     transition: ease-out 0.5s;
-    border: 2px solid #ffffff;
+    border: 1px solid #00000000;
     border-radius: 5px;
-    box-shadow: inset 0 0 0 0 #834EDD;
     font-weight: bold;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .logo {
@@ -65,5 +67,22 @@ button {
 }
 
 .login {
-    margin-top: 0px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    margin-top: -60px;
+    background-color: white;
+    width: 750px;
+    height: 700px ;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    display: flex;
+    position: absolute;
+    font-size: 26px;
+    margin-top: -450px;
+    margin-left: 428px;
 }
