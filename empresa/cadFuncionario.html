@@ -8,43 +8,46 @@
 </head>
 <body>
     <center>
+        <form action="insert_funcionario.php" method="POST">
     <img src="logo.png" alt="logo" class="logo"><br>
         <div class="login">
             <br>
             <h1>CADASTRO DE FUNCIONÁRIO</h1>
             <br>
             <div class="input-container">
-                <input placeholder="NOME" class="input" name="text" type="text">
+                <input placeholder="NOME" class="input" name="nome" type="text">
             </div>
             <br><br>
             <div class="input-container">
-                <input placeholder="SOBRENOME" class="input" name="text" type="text">
+                <input placeholder="SOBRENOME" class="input" name="sobrenome" type="text">
             </div>
             <br><br>
             <div class="input-container">
-                <input placeholder="DATA DE NASCIMENTO(DD/MM/AAAA)" class="input" name="text" type="value">
+                <input placeholder="DATA DE NASCIMENTO(DD/MM/AAAA)" class="input" name="dt_nasc" type="value">
             </div>
             <br><br>
             <div class="input-container">
-                <input placeholder="DATA DE ADMISSÃO(DD/MM/AAAA)" class="input" name="text" type="value">
+                <input placeholder="DATA DE ADMISSÃO(DD/MM/AAAA)" class="input" name="dt_adm" type="value">
             </div>
             <br><br>
             <div class="input-container">
-                <input placeholder="CARGO" class="input" name="text" type="text">
+                <input placeholder="CARGO" class="input" name="cargo" type="text">
             </div>
             <br><br>
             <div class="input-container">
-                <input placeholder="SALÁRIO" class="input" name="text" type="value">
+                <input placeholder="SALÁRIO" class="input" name="salario" type="value">
             </div>
             <br><br>
             <div class="input-container">
-                <input placeholder="SENHA" class="input" name="text" type="password">
+                <input placeholder="SENHA" class="input" name="senha" type="password">
             </div>
             <h2>COLOQUE AS<br><br>INFORMAÇÕES DO<br><br> FUNCIONÁRIO PARA<br><br> CADASTRÁ-LO</h2>
-            <button style="padding: 15px 121px; background-color: #834EDD; color: white;"> VOLTAR </button>
+            <button type="submit" style="padding: 15px 121px; background-color: #834EDD; color: white;" class="button">VOLTAR</button>
             <br><br><br><br>
-            <button> CADASTRAR </button>
+            <button type="submit" class="button">CADASTRAR</button>
         </div>
+    </form>
     </center>
 </body>
 </html>
+ 

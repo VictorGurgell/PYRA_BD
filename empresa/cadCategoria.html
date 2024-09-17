@@ -8,25 +8,27 @@
 </head>
 <body>
     <center>
+        <form action="insert_categoria.php" method="post">
     <img src="logo.png" alt="logo" class="logo"><br>
         <div class="login">
             <br>
             <h1>CADASTRO DE CATEGORIA</h1>
             <br>
             <div class="input-container">
-                <input placeholder="NOME" class="input" name="text" type="text">
+                <input placeholder="NOME" class="input" name="nome" type="text">
             </div>
             <br><br>
             <div class="input-container">
-                <input placeholder="DESCRIÇÃO" class="input" name="text" type="text">
+                <input placeholder="DESCRIÇÃO" class="input" name="descricao" type="text">
             </div>
             <br><br>
             
-            <button style="padding: 15px 129px; background-color: #834EDD; color: white;"> VOLTAR </button>
+            <button type="submit" style="padding: 15px 129px; background-color: #834EDD; color: white;" class="button">VOLTAR</button>
             <br><br><br>
-            <button> CADASTRAR </button>
+            <button type="submit" class="button">CADASTRAR</button>
             <h2>COLOQUE AS<br><br>INFORMAÇÕES DA<br><br> CATEGORIA PARA<br><br> CADASTRÁ-LO</h2>
         </div>
+    </form>
     </center>
 </body>
 </html>

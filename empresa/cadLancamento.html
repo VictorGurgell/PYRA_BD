@@ -8,17 +8,18 @@
 </head>
 <body>
     <center>
+        <form action="insert_lancamento.php" method="post">
     <img src="logo.png" alt="logo" class="logo"><br>
         <div class="login">
             <br>
             <h1>CADASTRO DE FORNECEDOR</h1>
             <br>
             <div class="input-container">
-                <input placeholder="DESCRIÇÃO" class="input" name="text" type="text" style="margin-top: 0px;">
+                <input placeholder="DESCRIÇÃO" class="input" name="descricao" type="text" style="margin-top: 0px;">
             </div>
             <br><br><br>
             <div class="input-container">
-                <input placeholder="VALOR" class="input" name="text" type="text">
+                <input placeholder="VALOR" class="input" name="valor" type="text">
             </div>
             <br><br>
             <h5 style="margin-left: -585px; margin-top: -7px;">TIPO</h5>
@@ -29,13 +30,14 @@
             </select>
             <br><br><br><br>
             <div class="input-container">
-                <input placeholder="DATA LANÇAMENTO(DD/MM/AAAA)" class="input" name="text" type="value">
+                <input placeholder="DATA LANÇAMENTO(DD/MM/AAAA)" class="input" name="dt_lanc" type="value">
             </div>
             <h2>COLOQUE AS<br><br>INFORMAÇÕES DO<br><br> LANÇAMENTO PARA<br><br> CADASTRÁ-LO</h2>
-            <button style="padding: 15px 121px; background-color: #834EDD; color: white;"> VOLTAR </button>
+            <button type="submit" style="padding: 15px 121px; background-color: #834EDD; color: white;" class="button">VOLTAR</button>
             <br><br><br><br>
-            <button> CADASTRAR </button>
+            <button type="submit" class="button">CADASTRAR</button>
         </div>
+    </form>
     </center>
 </body>
 </html>

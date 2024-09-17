@@ -40,7 +40,7 @@ input::placeholder {
     font-size: 12px;
 }
 
-button {
+.button {
     margin-left: -330px;
     display: flex;
     position: relative;

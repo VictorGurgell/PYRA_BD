@@ -41,7 +41,7 @@ input::placeholder {
     font-size: 12px;
 }
 
-button {
+.button {
     margin-left: 33px;
     display: flex;
     position: absolute;
