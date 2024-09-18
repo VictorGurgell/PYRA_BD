@@ -44,11 +44,11 @@ create table tb_lancamentos(
 id_despesa int auto_increment,
 descricao varchar(200),
 valor decimal (6,2),
-tipo boolean,
+tipo varchar(20),
 data_lancamento date,
 id_categoria int,
 id_funcionario int,
 primary key (id_despesa),
 foreign key (id_categoria) references tb_Categoria (id_categoria),
-foreign key (id_funcionario) references funcionario (id_funcionario)
+foreign key (id_funcionario) references tb_funcionario (id_funcionario)
 );
