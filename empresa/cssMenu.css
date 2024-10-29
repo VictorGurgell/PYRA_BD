@@ -33,4 +33,10 @@ button {
     margin-left: 87%;
 }
 
-
+h2 {
+    font-size: 120px;
+    color: white;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 31%;
+}
