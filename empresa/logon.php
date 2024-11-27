@@ -10,10 +10,12 @@
     $resultado = $query->fetch_assoc();
  
     $id_user_banco = $resultado['id_funcionario'];
-    $id_senha_banco = $resultado['nm_senha'];
+    $id_senha_banco = $resultado['senha'];
  
     if ($id_user == $id_user_banco && $senha == $id_senha_banco) {
-        header('location: Menu.html');
+        session_start();
+        $_SESSION['nm_funcionario'] = $resultado['nm_funcionario'];
+        header('location: Menu.php');
     }
     else{
         echo "<script> alert('Senha ou usuário incorretos'); history.back() </script>";
